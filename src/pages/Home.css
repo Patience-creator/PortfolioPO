@@ -1,0 +1,59 @@
+   
+
+  div {
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 1s;
+    border-radius: 50px;
+    animation-iteration-count: 900;
+  margin-right:528px;
+ 
+}
+  #yaman{
+    width:50px;
+    height:50px;
+    /* background-image: url("https://cdn.colorlib.com/wp/wp-content/uploads/sites/2/free-mobile-ui-kits.png"); */
+  }
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+    from {
+      opacity: 1;
+      width : 0px;
+      height:0px;
+      position: relative;
+      /* top:50px; */
+      left:50px;
+  }
+    to {
+      opacity: 0;
+      width : 100px;
+      height:100px;
+      position: relative;
+      top:0px;
+      left:0px;
+  }
+}
+
+/* Standard syntax */
+@keyframes example {
+    from {
+      opacity: 1;
+      width : 0px;
+      height:0px;
+      position: absolute;
+      /* top:50px; */
+      right:50px;
+  }
+    to {
+      opacity: 0;
+      width : 100px;
+      height:100px;
+      position: absolute;
+      top:0px;
+      right:0px;
+  }
+}
